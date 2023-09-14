@@ -1,0 +1,248 @@
+[2023-03-28 18:05:11] [ ERROR] [GlobalExceptionHandler:22] JSON parse error: Cannot deserialize value of type `java.util.Date` from String "30-3-2023": not a valid representation (error: Failed to parse Date value '30-3-2023': Cannot parse date "30-3-2023": while it seems to fit format 'yyyy-MM-dd', parsing fails (leniency? null))
+[2023-03-28 18:06:05] [ ERROR] [GlobalExceptionHandler:22] JSON parse error: Unexpected character ('-' (code 45)): was expecting comma to separate Object entries
+[2023-03-28 18:06:26] [ ERROR] [GlobalExceptionHandler:22] JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2023-3-30": not a valid representation (error: Failed to parse Date value '2023-3-30': Cannot parse date "2023-3-30": while it seems to fit format 'yyyy-MM-dd', parsing fails (leniency? null))
+[2023-03-28 18:07:19] [ ERROR] [GlobalExceptionHandler:22] JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2023-3-30": not a valid representation (error: Failed to parse Date value '2023-3-30': Cannot parse date "2023-3-30": while it seems to fit format 'yyyy-MM-dd', parsing fails (leniency? null))
+[2023-03-28 18:14:17] [ ERROR] [GlobalExceptionHandler:22] Cannot deserialize value of type `java.time.LocalDate` from String "2023-03-30T00:00:00.000+00:00": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '2023-03-30T00:00:00.000+00:00' could not be parsed, unparsed text found at index 23
+ at [Source: UNKNOWN; byte offset: #UNKNOWN] (through reference chain: com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.PacienteDTO["fechaIngreso"])
+[2023-03-31 19:13:52] [ ERROR] [GlobalExceptionHandler:23] Request method 'DELETE' is not supported
+[2023-03-31 19:14:53] [ ERROR] [GlobalExceptionHandler:23] could not execute statement; SQL [n/a]; constraint [null]
+[2023-03-31 19:15:09] [ ERROR] [GlobalExceptionHandler:23] could not execute statement; SQL [n/a]; constraint [null]
+[2023-03-31 19:16:40] [ ERROR] [GlobalExceptionHandler:23] Cannot deserialize value of type `java.util.Date` from String "2023-03-30T00:00:00.000+00:00": expected format "dd-MMM-yyyy"
+ at [Source: UNKNOWN; byte offset: #UNKNOWN] (through reference chain: com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.entity.Paciente["fechaIngreso"])
+[2023-03-31 19:16:50] [ ERROR] [GlobalExceptionHandler:23] Cannot deserialize value of type `java.util.Date` from String "2023-03-30T00:00:00.000+00:00": expected format "dd-MMM-yyyy"
+ at [Source: UNKNOWN; byte offset: #UNKNOWN] (through reference chain: com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.entity.Paciente["fechaIngreso"])
+[2023-03-31 19:17:05] [ ERROR] [GlobalExceptionHandler:23] Cannot deserialize value of type `java.util.Date` from String "2023-03-30T00:00:00.000+00:00": expected format "dd-MMM-yyyy"
+ at [Source: UNKNOWN; byte offset: #UNKNOWN] (through reference chain: com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.entity.Paciente["fechaIngreso"])
+[2023-03-31 19:17:20] [ ERROR] [GlobalExceptionHandler:23] Cannot deserialize value of type `java.util.Date` from String "2023-03-30T00:00:00.000+00:00": expected format "dd-MMM-yyyy"
+ at [Source: UNKNOWN; byte offset: #UNKNOWN] (through reference chain: com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.entity.Paciente["fechaIngreso"])
+[2023-03-31 19:17:28] [ ERROR] [GlobalExceptionHandler:23] Cannot deserialize value of type `java.util.Date` from String "2023-03-30T00:00:00.000+00:00": expected format "dd-MMM-yyyy"
+ at [Source: UNKNOWN; byte offset: #UNKNOWN] (through reference chain: com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.entity.Paciente["fechaIngreso"])
+[2023-03-31 19:17:48] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.util.Date` from String "31-mar-2023": not a valid representation (error: Failed to parse Date value '31-mar-2023': Cannot parse date "31-mar-2023": not compatible with any of standard forms ("yyyy-MM-dd'T'HH:mm:ss.SSSX", "yyyy-MM-dd'T'HH:mm:ss.SSS", "EEE, dd MMM yyyy HH:mm:ss zzz", "yyyy-MM-dd"))
+[2023-03-31 19:18:54] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.util.Date` from String "31-mar-2023": not a valid representation (error: Failed to parse Date value '31-mar-2023': Cannot parse date "31-mar-2023": not compatible with any of standard forms ("yyyy-MM-dd'T'HH:mm:ss.SSSX", "yyyy-MM-dd'T'HH:mm:ss.SSS", "EEE, dd MMM yyyy HH:mm:ss zzz", "yyyy-MM-dd"))
+[2023-03-31 19:19:26] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.util.Date` from String "31-mar-2023": not a valid representation (error: Failed to parse Date value '31-mar-2023': Cannot parse date "31-mar-2023": not compatible with any of standard forms ("yyyy-MM-dd'T'HH:mm:ss.SSSX", "yyyy-MM-dd'T'HH:mm:ss.SSS", "EEE, dd MMM yyyy HH:mm:ss zzz", "yyyy-MM-dd"))
+[2023-03-31 19:19:36] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.util.Date` from String "31-03-2023": not a valid representation (error: Failed to parse Date value '31-03-2023': Cannot parse date "31-03-2023": not compatible with any of standard forms ("yyyy-MM-dd'T'HH:mm:ss.SSSX", "yyyy-MM-dd'T'HH:mm:ss.SSS", "EEE, dd MMM yyyy HH:mm:ss zzz", "yyyy-MM-dd"))
+[2023-03-31 19:20:31] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.util.Date` from String "31-03-2023": not a valid representation (error: Failed to parse Date value '31-03-2023': Cannot parse date "31-03-2023": not compatible with any of standard forms ("yyyy-MM-dd'T'HH:mm:ss.SSSX", "yyyy-MM-dd'T'HH:mm:ss.SSS", "EEE, dd MMM yyyy HH:mm:ss zzz", "yyyy-MM-dd"))
+[2023-03-31 19:20:32] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.util.Date` from String "31-03-2023": not a valid representation (error: Failed to parse Date value '31-03-2023': Cannot parse date "31-03-2023": not compatible with any of standard forms ("yyyy-MM-dd'T'HH:mm:ss.SSSX", "yyyy-MM-dd'T'HH:mm:ss.SSS", "EEE, dd MMM yyyy HH:mm:ss zzz", "yyyy-MM-dd"))
+[2023-03-31 19:22:25] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.util.Date` from String "31-03-2023": not a valid representation (error: Failed to parse Date value '31-03-2023': Cannot parse date "31-03-2023": not compatible with any of standard forms ("yyyy-MM-dd'T'HH:mm:ss.SSSX", "yyyy-MM-dd'T'HH:mm:ss.SSS", "EEE, dd MMM yyyy HH:mm:ss zzz", "yyyy-MM-dd"))
+[2023-03-31 19:22:37] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.util.Date` from String "31/03/2023": not a valid representation (error: Failed to parse Date value '31/03/2023': Cannot parse date "31/03/2023": not compatible with any of standard forms ("yyyy-MM-dd'T'HH:mm:ss.SSSX", "yyyy-MM-dd'T'HH:mm:ss.SSS", "EEE, dd MMM yyyy HH:mm:ss zzz", "yyyy-MM-dd"))
+[2023-03-31 19:23:23] [ ERROR] [GlobalExceptionHandler:23] Cannot deserialize value of type `java.util.Date` from String "2023-03-30T00:00:00.000+00:00": expected format "dd/MM/yyyy"
+ at [Source: UNKNOWN; byte offset: #UNKNOWN] (through reference chain: com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.entity.Paciente["fechaIngreso"])
+[2023-03-31 19:23:38] [ ERROR] [GlobalExceptionHandler:23] Cannot deserialize value of type `java.util.Date` from String "2023-03-30T00:00:00.000+00:00": expected format "dd/MM/yyyy"
+ at [Source: UNKNOWN; byte offset: #UNKNOWN] (through reference chain: com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.entity.Paciente["fechaIngreso"])
+[2023-03-31 19:37:52] [ ERROR] [GlobalExceptionHandler:23] could not execute statement; SQL [n/a]; constraint [null]
+[2023-03-31 19:38:29] [ ERROR] [GlobalExceptionHandler:23] could not execute statement; SQL [n/a]; constraint [null]
+[2023-03-31 19:39:15] [ ERROR] [GlobalExceptionHandler:23] could not execute statement; SQL [n/a]; constraint [null]
+[2023-03-31 19:40:16] [ ERROR] [GlobalExceptionHandler:23] could not execute statement; SQL [n/a]; constraint [null]
+[2023-03-31 19:41:30] [ ERROR] [GlobalExceptionHandler:23] could not execute statement; SQL [n/a]; constraint [null]
+[2023-03-31 19:41:44] [ ERROR] [GlobalExceptionHandler:23] could not execute statement; SQL [n/a]; constraint [null]
+[2023-03-31 19:42:17] [ ERROR] [GlobalExceptionHandler:23] could not execute statement; SQL [n/a]; constraint [null]
+[2023-04-01 05:06:27] [ ERROR] [GlobalExceptionHandler:23] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (CAST(1 AS BIGINT))"; SQL statement:
+delete from odontologos where id=? [23503-214]]
+[2023-04-01 05:46:36] [ ERROR] [GlobalExceptionHandler:23] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (CAST(1 AS BIGINT))"; SQL statement:
+delete from odontologos where id=? [23503-214]]
+[2023-04-01 06:06:42] [ ERROR] [GlobalExceptionHandler:23] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (CAST(1 AS BIGINT))"; SQL statement:
+delete from odontologos where id=? [23503-214]]
+[2023-04-03 21:30:38] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+[2023-04-04 21:03:20] [ ERROR] [GlobalExceptionHandler:23] fechaIngreso is marked non-null but is null
+ at [Source: UNKNOWN; byte offset: #UNKNOWN] (through reference chain: com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.entity.Paciente["fechaIngreso"])
+[2023-04-04 21:08:34] [ ERROR] [GlobalExceptionHandler:23] fechaIngreso is marked non-null but is null
+ at [Source: UNKNOWN; byte offset: #UNKNOWN] (through reference chain: com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.entity.Paciente["fechaIngreso"])
+[2023-04-07 23:19:11] [ ERROR] [GlobalExceptionHandler:23] could not execute statement; SQL [n/a]; constraint ["PRIMARY KEY ON PUBLIC.ODONTOLOGOS(ID) ( /* key:1 */ CAST(1 AS BIGINT), U&'Sanch\\00e9z', '2365', 'Franco')"; SQL statement:
+insert into odontologos (apellido, matricula, nombre, id) values (?, ?, ?, ?) [23505-214]]
+[2023-04-07 23:39:05] [ ERROR] [GlobalExceptionHandler:23] not-null property references a null or transient value : com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.entity.Paciente.domicilio
+[2023-04-22 19:43:47] [ ERROR] [AuthEntryPointJwt:23] Unauthorized error: {}
+[2023-04-22 19:45:50] [ ERROR] [AuthEntryPointJwt:23] Unauthorized error: {}
+[2023-04-23 19:59:14] [ ERROR] [GlobalExceptionHandler:23] No se encuentra la lista de turnos
+[2023-04-23 20:34:40] [ ERROR] [GlobalExceptionHandler:23] Request method 'GET' is not supported
+[2023-04-23 20:34:44] [ ERROR] [GlobalExceptionHandler:23] Request method 'GET' is not supported
+[2023-04-23 20:34:45] [ ERROR] [GlobalExceptionHandler:23] Request method 'GET' is not supported
+[2023-04-23 20:34:45] [ ERROR] [GlobalExceptionHandler:23] Request method 'GET' is not supported
+[2023-04-23 20:34:46] [ ERROR] [GlobalExceptionHandler:23] Request method 'GET' is not supported
+[2023-04-23 20:34:46] [ ERROR] [GlobalExceptionHandler:23] Request method 'GET' is not supported
+[2023-04-23 20:34:46] [ ERROR] [GlobalExceptionHandler:23] Request method 'GET' is not supported
+[2023-04-23 20:34:46] [ ERROR] [GlobalExceptionHandler:23] Request method 'GET' is not supported
+[2023-04-23 20:35:38] [ ERROR] [GlobalExceptionHandler:23] Request method 'GET' is not supported
+[2023-04-24 16:47:29] [ ERROR] [GlobalExceptionHandler:23] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "listar"
+[2023-04-24 16:47:31] [ ERROR] [GlobalExceptionHandler:23] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "listar"
+[2023-04-24 16:54:10] [ ERROR] [GlobalExceptionHandler:23] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "listar"
+[2023-04-25 20:20:23] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "2023-04-18": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '2023-04-18' could not be parsed at index 2
+[2023-04-25 20:27:42] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "2023-04-27": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '2023-04-27' could not be parsed at index 2
+[2023-04-25 20:34:58] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "2023-04-20": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '2023-04-20' could not be parsed at index 2
+[2023-04-25 20:36:27] [ ERROR] [GlobalExceptionHandler:23] Request method 'GET' is not supported
+[2023-04-25 21:17:13] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "2023-04-26": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '2023-04-26' could not be parsed at index 2
+[2023-04-25 21:18:48] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "2023-04-14": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '2023-04-14' could not be parsed at index 2
+[2023-04-25 21:22:00] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "2023-04-27": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '2023-04-27' could not be parsed at index 2
+[2023-04-25 21:32:06] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "2023-05-04": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '2023-05-04' could not be parsed at index 2
+[2023-04-25 21:43:16] [ ERROR] [GlobalExceptionHandler:23] not-null property references a null or transient value : com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.entity.Paciente.domicilio
+[2023-04-25 21:46:11] [ ERROR] [GlobalExceptionHandler:23] not-null property references a null or transient value : com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.entity.Paciente.domicilio
+[2023-04-25 21:46:11] [ ERROR] [GlobalExceptionHandler:23] not-null property references a null or transient value : com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.entity.Paciente.domicilio
+[2023-04-25 22:01:53] [ ERROR] [GlobalExceptionHandler:23] Request method 'GET' is not supported
+[2023-04-25 22:06:22] [ ERROR] [GlobalExceptionHandler:23] not-null property references a null or transient value : com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.entity.Paciente.domicilio
+[2023-04-28 21:38:23] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "2023-04-30": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '2023-04-30' could not be parsed at index 2
+[2023-04-28 21:38:59] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "2023-04-30": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '2023-04-30' could not be parsed at index 2
+[2023-04-28 21:48:12] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "2023-04-29": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '2023-04-29' could not be parsed at index 2
+[2023-04-28 21:48:16] [ ERROR] [GlobalExceptionHandler:23] Los datos del turno son inválidos
+[2023-04-28 21:48:24] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "2023-04-26": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '2023-04-26' could not be parsed at index 2
+[2023-04-28 21:51:28] [ ERROR] [GlobalExceptionHandler:23] Los datos del turno son inválidos
+[2023-04-28 21:51:35] [ ERROR] [GlobalExceptionHandler:23] Los datos del turno son inválidos
+[2023-04-28 21:55:37] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "2023-04-29": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '2023-04-29' could not be parsed at index 2
+[2023-04-28 22:04:28] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "2023-05-07": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '2023-05-07' could not be parsed at index 2
+[2023-04-28 22:04:40] [ ERROR] [GlobalExceptionHandler:23] Request method 'GET' is not supported
+[2023-04-28 22:04:43] [ ERROR] [GlobalExceptionHandler:23] Request method 'GET' is not supported
+[2023-04-28 22:07:41] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "2023-04-19": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '2023-04-19' could not be parsed at index 2
+[2023-04-28 22:11:33] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot construct instance of `java.sql.Time`, problem: `java.lang.IllegalArgumentException`
+[2023-04-28 22:13:16] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot construct instance of `java.sql.Time`, problem: `java.lang.IllegalArgumentException`
+[2023-04-28 22:13:18] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot construct instance of `java.sql.Time`, problem: `java.lang.IllegalArgumentException`
+[2023-04-28 22:13:20] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot construct instance of `java.sql.Time`, problem: `java.lang.IllegalArgumentException`
+[2023-04-28 22:13:42] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot construct instance of `java.sql.Time`, problem: `java.lang.IllegalArgumentException`
+[2023-04-28 23:27:55] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot construct instance of `java.sql.Time`, problem: `java.lang.IllegalArgumentException`
+[2023-04-28 23:27:59] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot construct instance of `java.sql.Time`, problem: `java.lang.IllegalArgumentException`
+[2023-04-28 23:33:46] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot construct instance of `java.sql.Time`, problem: `java.lang.IllegalArgumentException`
+[2023-04-28 23:34:52] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot construct instance of `java.sql.Time`, problem: `java.lang.IllegalArgumentException`
+[2023-04-28 23:43:09] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot construct instance of `java.sql.Time`, problem: `java.lang.IllegalArgumentException`
+[2023-04-28 23:50:31] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.util.Date` from Object value (token `JsonToken.START_OBJECT`)
+[2023-04-28 23:55:49] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.util.Date` from Object value (token `JsonToken.START_OBJECT`)
+[2023-04-28 23:59:23] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.util.Date` from Object value (token `JsonToken.START_OBJECT`)
+[2023-04-28 23:59:26] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.util.Date` from Object value (token `JsonToken.START_OBJECT`)
+[2023-04-28 23:59:27] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.util.Date` from Object value (token `JsonToken.START_OBJECT`)
+[2023-04-28 23:59:27] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.util.Date` from Object value (token `JsonToken.START_OBJECT`)
+[2023-04-28 23:59:27] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.util.Date` from Object value (token `JsonToken.START_OBJECT`)
+[2023-04-29 00:10:36] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.util.Date` from Object value (token `JsonToken.START_OBJECT`)
+[2023-04-29 00:21:27] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.util.Date` from Object value (token `JsonToken.START_OBJECT`)
+[2023-04-29 00:21:36] [ ERROR] [GlobalExceptionHandler:23] Request method 'GET' is not supported
+[2023-04-29 00:24:34] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.util.Date` from Object value (token `JsonToken.START_OBJECT`)
+[2023-04-29 00:35:25] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.util.Date` from Object value (token `JsonToken.START_OBJECT`)
+[2023-04-29 18:20:47] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from Object value (token `JsonToken.START_OBJECT`)
+[2023-04-29 18:23:04] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from Object value (token `JsonToken.START_OBJECT`)
+[2023-04-29 18:30:42] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from Object value (token `JsonToken.START_OBJECT`)
+[2023-04-29 18:32:26] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from Object value (token `JsonToken.START_OBJECT`)
+[2023-04-29 18:36:24] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "00:36": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text '00:36' could not be parsed: Unable to obtain LocalDateTime from TemporalAccessor: {},ISO resolved to 00:36 of type java.time.format.Parsed
+[2023-04-29 18:36:32] [ ERROR] [GlobalExceptionHandler:23] Request method 'GET' is not supported
+[2023-04-29 18:46:41] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "23:46": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text '23:46' could not be parsed: Unable to obtain LocalDateTime from TemporalAccessor: {},ISO resolved to 23:46 of type java.time.format.Parsed
+[2023-04-29 18:50:18] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "00:50": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text '00:50' could not be parsed: Unable to obtain LocalDateTime from TemporalAccessor: {},ISO resolved to 00:50 of type java.time.format.Parsed
+[2023-04-29 18:52:06] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "23:52": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text '23:52' could not be parsed at index 5
+[2023-04-29 18:54:08] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "22:54": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text '22:54' could not be parsed at index 5
+[2023-04-29 18:56:24] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "00:56": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text '00:56' could not be parsed at index 0
+[2023-04-29 18:58:15] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "00:58": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text '00:58' could not be parsed at index 0
+[2023-04-29 19:01:21] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "19:06": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text '19:06' could not be parsed at index 0
+[2023-04-29 19:04:42] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "00:04": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text '00:04' could not be parsed at index 0
+[2023-04-29 19:06:27] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "2023-05-04T01:06": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text '2023-05-04T01:06' could not be parsed at index 2
+[2023-04-29 19:07:55] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "22:00": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text '22:00' could not be parsed at index 5
+[2023-04-29 19:08:04] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "22:00": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text '22:00' could not be parsed at index 5
+[2023-04-29 19:09:35] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "06:00": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text '06:00' could not be parsed: Unable to obtain LocalDateTime from TemporalAccessor: {},ISO resolved to 06:00 of type java.time.format.Parsed
+[2023-04-29 19:21:32] [ ERROR] [GlobalExceptionHandler:23] Cannot invoke "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.PacienteDTO.getId()" because the return value of "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.TurnoDTO.getPaciente()" is null
+[2023-04-29 19:22:30] [ ERROR] [GlobalExceptionHandler:23] Cannot invoke "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.PacienteDTO.getId()" because the return value of "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.TurnoDTO.getPaciente()" is null
+[2023-04-29 19:27:29] [ ERROR] [GlobalExceptionHandler:23] Cannot invoke "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.PacienteDTO.getId()" because the return value of "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.TurnoDTO.getPaciente()" is null
+[2023-04-29 20:41:58] [ ERROR] [GlobalExceptionHandler:23] Cannot invoke "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.PacienteDTO.getId()" because the return value of "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.TurnoDTO.getPaciente()" is null
+[2023-04-29 20:43:27] [ ERROR] [GlobalExceptionHandler:23] Cannot invoke "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.PacienteDTO.getId()" because the return value of "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.TurnoDTO.getPaciente()" is null
+[2023-04-29 20:50:09] [ ERROR] [GlobalExceptionHandler:23] Cannot invoke "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.PacienteDTO.getId()" because the return value of "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.TurnoDTO.getPaciente()" is null
+[2023-04-29 22:13:04] [ ERROR] [GlobalExceptionHandler:23] El turno debe tener un paciente y un odontólogo asignados.
+[2023-04-29 22:13:09] [ ERROR] [GlobalExceptionHandler:23] El turno debe tener un paciente y un odontólogo asignados.
+[2023-04-29 23:04:04] [ ERROR] [GlobalExceptionHandler:23] Required request parameter 'pacienteId' for method parameter type Long is not present
+[2023-04-29 23:08:58] [ ERROR] [GlobalExceptionHandler:23] Required request parameter 'pacienteId' for method parameter type Long is not present
+[2023-04-29 23:10:08] [ ERROR] [GlobalExceptionHandler:23] Required request parameter 'pacienteId' for method parameter type Long is not present
+[2023-04-29 23:21:18] [ ERROR] [GlobalExceptionHandler:23] Required request parameter 'pacienteId' for method parameter type Long is not present
+[2023-04-29 23:24:47] [ ERROR] [GlobalExceptionHandler:23] Required request parameter 'pacienteId' for method parameter type Long is not present
+[2023-04-30 00:31:50] [ ERROR] [GlobalExceptionHandler:23] Content-Type 'multipart/form-data;boundary=----WebKitFormBoundaryei9PxhsrfZRqH2O5;charset=UTF-8' is not supported
+[2023-04-30 00:35:06] [ ERROR] [GlobalExceptionHandler:23] Content-Type 'multipart/form-data;boundary=----WebKitFormBoundarypUq2K8DOT0shIsBN;charset=UTF-8' is not supported
+[2023-04-30 00:36:06] [ ERROR] [GlobalExceptionHandler:23] Content-Type 'multipart/form-data;boundary=----WebKitFormBoundaryZO7EML1nDV3UwBvY;charset=UTF-8' is not supported
+[2023-04-30 00:42:28] [ ERROR] [GlobalExceptionHandler:23] Content-Type 'multipart/form-data;boundary=----WebKitFormBoundarykCT2UjViY19WuGiQ;charset=UTF-8' is not supported
+[2023-04-30 01:02:54] [ ERROR] [GlobalExceptionHandler:23] Content-Type 'multipart/form-data;boundary=----WebKitFormBoundary9bZxngxiHbGaqAaB;charset=UTF-8' is not supported
+[2023-04-30 01:04:21] [ ERROR] [GlobalExceptionHandler:23] Verifique los datos ingresados
+[2023-04-30 01:26:15] [ ERROR] [GlobalExceptionHandler:23] Verifique los datos ingresados
+[2023-04-30 13:05:14] [ ERROR] [GlobalExceptionHandler:23] Cannot invoke "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.OdontologoDTO.getId()" because the return value of "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.TurnoDTO.getOdontologo()" is null
+[2023-04-30 13:11:41] [ ERROR] [GlobalExceptionHandler:23] Cannot invoke "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.OdontologoDTO.getId()" because the return value of "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.TurnoDTO.getOdontologo()" is null
+[2023-04-30 13:16:54] [ ERROR] [GlobalExceptionHandler:23] Cannot invoke "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.OdontologoDTO.getId()" because the return value of "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.TurnoDTO.getOdontologo()" is null
+[2023-04-30 13:30:24] [ ERROR] [GlobalExceptionHandler:23] Cannot invoke "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.OdontologoDTO.getId()" because the return value of "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.TurnoDTO.getOdontologo()" is null
+[2023-04-30 15:47:21] [ ERROR] [GlobalExceptionHandler:23] Cannot invoke "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.OdontologoDTO.getId()" because the return value of "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.TurnoDTO.getOdontologo()" is null
+[2023-04-30 15:52:51] [ ERROR] [GlobalExceptionHandler:23] A different object with the same identifier value was already associated with the session : [com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.entity.Turno#1]
+[2023-04-30 15:58:52] [ ERROR] [GlobalExceptionHandler:23] A different object with the same identifier value was already associated with the session : [com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.entity.Turno#2]
+[2023-04-30 20:51:52] [ ERROR] [GlobalExceptionHandler:23] No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.entity.Paciente$HibernateProxy$gwMwFg4W["hibernateLazyInitializer"])
+[2023-04-30 20:52:34] [ ERROR] [GlobalExceptionHandler:23] No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.entity.Paciente$HibernateProxy$gwMwFg4W["hibernateLazyInitializer"])
+[2023-04-30 20:59:14] [ ERROR] [GlobalExceptionHandler:23] No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.entity.Paciente$HibernateProxy$3X92jTQe["hibernateLazyInitializer"])
+[2023-04-30 21:02:21] [ ERROR] [GlobalExceptionHandler:23] No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.entity.Paciente$HibernateProxy$pETduS5k["hibernateLazyInitializer"])
+[2023-04-30 21:03:56] [ ERROR] [GlobalExceptionHandler:23] No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.entity.Paciente$HibernateProxy$1gjTslBg["hibernateLazyInitializer"])
+[2023-04-30 21:06:42] [ ERROR] [GlobalExceptionHandler:23] No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.entity.Paciente$HibernateProxy$CEgjhux3["hibernateLazyInitializer"])
+[2023-04-30 21:20:47] [ ERROR] [GlobalExceptionHandler:23] No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.entity.Paciente$HibernateProxy$kBAbaj18["hibernateLazyInitializer"])
+[2023-04-30 21:22:08] [ ERROR] [GlobalExceptionHandler:23] No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.entity.Odontologo$HibernateProxy$UFpVYr4B["hibernateLazyInitializer"])
+[2023-04-30 21:23:44] [ ERROR] [GlobalExceptionHandler:23] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (CAST(2 AS BIGINT))"; SQL statement:
+delete from odontologos where id=? [23503-214]]
+[2023-04-30 21:23:50] [ ERROR] [GlobalExceptionHandler:23] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (CAST(2 AS BIGINT))"; SQL statement:
+delete from odontologos where id=? [23503-214]]
+[2023-04-30 21:23:59] [ ERROR] [GlobalExceptionHandler:23] Paciente no encontrado con id: 3
+[2023-04-30 21:50:33] [ ERROR] [GlobalExceptionHandler:23] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (CAST(2 AS BIGINT))"; SQL statement:
+delete from odontologos where id=? [23503-214]]
+[2023-04-30 23:25:20] [ ERROR] [GlobalExceptionHandler:23] Request method 'PUT' is not supported
+[2023-04-30 23:25:53] [ ERROR] [GlobalExceptionHandler:23] Request method 'PUT' is not supported
+[2023-04-30 23:31:40] [ ERROR] [GlobalExceptionHandler:23] Request method 'PUT' is not supported
+[2023-04-30 23:35:04] [ ERROR] [GlobalExceptionHandler:23] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "{id}"
+[2023-04-30 23:35:06] [ ERROR] [GlobalExceptionHandler:23] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "{id}"
+[2023-04-30 23:39:18] [ ERROR] [GlobalExceptionHandler:23] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "{id}"
+[2023-05-01 00:13:59] [ ERROR] [GlobalExceptionHandler:23] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (CAST(2 AS BIGINT))"; SQL statement:
+delete from odontologos where id=? [23503-214]]
+[2023-05-01 01:03:18] [ ERROR] [GlobalExceptionHandler:23] The given id must not be null
+[2023-05-01 01:44:45] [ ERROR] [GlobalExceptionHandler:23] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "{id}"
+[2023-05-01 01:45:59] [ ERROR] [GlobalExceptionHandler:23] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "${id}"
+[2023-05-01 01:52:20] [ ERROR] [GlobalExceptionHandler:23] The given id must not be null
+[2023-05-01 01:54:38] [ ERROR] [GlobalExceptionHandler:23] The given id must not be null
+[2023-05-01 01:54:56] [ ERROR] [GlobalExceptionHandler:23] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (CAST(2 AS BIGINT))"; SQL statement:
+delete from odontologos where id=? [23503-214]]
+[2023-05-01 18:32:30] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot deserialize value of type `java.lang.Long` from String "Aguirre Emilia": not a valid `java.lang.Long` value
+[2023-05-01 18:40:55] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot construct instance of `com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.OdontologoDTO` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('1')
+[2023-05-01 18:43:02] [ ERROR] [GlobalExceptionHandler:23] JSON parse error: Cannot construct instance of `com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.OdontologoDTO` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('1')
+[2023-05-01 18:53:41] [ ERROR] [GlobalExceptionHandler:23] The given id must not be null
+[2023-05-01 18:56:59] [ ERROR] [GlobalExceptionHandler:23] The given id must not be null
+[2023-05-01 18:59:06] [ ERROR] [GlobalExceptionHandler:23] The given id must not be null
+[2023-05-01 19:13:49] [ ERROR] [GlobalExceptionHandler:23] The given id must not be null
+[2023-05-01 19:14:06] [ ERROR] [GlobalExceptionHandler:23] The given id must not be null
+[2023-05-01 19:22:02] [ ERROR] [GlobalExceptionHandler:23] The given id must not be null
+[2023-05-01 19:42:40] [ ERROR] [GlobalExceptionHandler:23] The given id must not be null
+[2023-05-01 19:42:55] [ ERROR] [GlobalExceptionHandler:23] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (CAST(2 AS BIGINT))"; SQL statement:
+delete from odontologos where id=? [23503-214]]
+[2023-05-01 19:44:46] [ ERROR] [GlobalExceptionHandler:23] The given id must not be null
+[2023-05-01 19:58:19] [ ERROR] [GlobalExceptionHandler:23] The given id must not be null
+[2023-05-01 19:58:20] [ ERROR] [GlobalExceptionHandler:23] The given id must not be null
+[2023-05-01 19:58:20] [ ERROR] [GlobalExceptionHandler:23] The given id must not be null
+[2023-05-01 19:58:20] [ ERROR] [GlobalExceptionHandler:23] The given id must not be null
+[2023-05-01 19:58:21] [ ERROR] [GlobalExceptionHandler:23] The given id must not be null
+[2023-05-01 19:58:21] [ ERROR] [GlobalExceptionHandler:23] The given id must not be null
+[2023-05-01 19:58:21] [ ERROR] [GlobalExceptionHandler:23] The given id must not be null
+[2023-05-01 19:58:21] [ ERROR] [GlobalExceptionHandler:23] The given id must not be null
+[2023-05-01 19:58:22] [ ERROR] [GlobalExceptionHandler:23] The given id must not be null
+[2023-05-01 19:58:22] [ ERROR] [GlobalExceptionHandler:23] The given id must not be null
+[2023-05-01 19:58:22] [ ERROR] [GlobalExceptionHandler:23] The given id must not be null
+[2023-05-01 19:58:22] [ ERROR] [GlobalExceptionHandler:23] The given id must not be null
+[2023-05-01 22:09:22] [ ERROR] [GlobalExceptionHandler:23] Cannot invoke "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.OdontologoDTO.getId()" because the return value of "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.TurnoDTO.getOdontologo()" is null
+[2023-05-01 22:10:09] [ ERROR] [GlobalExceptionHandler:23] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (CAST(2 AS BIGINT))"; SQL statement:
+delete from odontologos where id=? [23503-214]]
+[2023-05-01 22:17:32] [ ERROR] [GlobalExceptionHandler:23] Cannot invoke "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.OdontologoDTO.getId()" because the return value of "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.TurnoDTO.getOdontologo()" is null
+[2023-05-01 22:20:23] [ ERROR] [GlobalExceptionHandler:23] Cannot invoke "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.OdontologoDTO.getId()" because the return value of "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.TurnoDTO.getOdontologo()" is null
+[2023-05-01 22:48:09] [ ERROR] [GlobalExceptionHandler:23] Cannot invoke "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.OdontologoDTO.getId()" because the return value of "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.TurnoDTO.getOdontologo()" is null
+[2023-05-01 22:52:50] [ ERROR] [GlobalExceptionHandler:23] Cannot invoke "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.OdontologoDTO.getId()" because the return value of "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.TurnoDTO.getOdontologo()" is null
+[2023-05-01 22:58:51] [ ERROR] [GlobalExceptionHandler:23] Cannot invoke "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.OdontologoDTO.getId()" because the return value of "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.TurnoDTO.getOdontologo()" is null
+[2023-05-01 23:00:13] [ ERROR] [GlobalExceptionHandler:23] Cannot invoke "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.OdontologoDTO.getId()" because the return value of "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.TurnoDTO.getOdontologo()" is null
+[2023-05-01 23:06:12] [ ERROR] [GlobalExceptionHandler:23] Cannot invoke "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.OdontologoDTO.getId()" because the return value of "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.TurnoDTO.getOdontologo()" is null
+[2023-05-01 23:13:56] [ ERROR] [GlobalExceptionHandler:23] Cannot invoke "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.OdontologoDTO.getId()" because the return value of "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.TurnoDTO.getOdontologo()" is null
+[2023-05-01 23:17:49] [ ERROR] [GlobalExceptionHandler:23] Cannot invoke "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.OdontologoDTO.getId()" because the return value of "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.TurnoDTO.getOdontologo()" is null
+[2023-05-01 23:33:54] [ ERROR] [GlobalExceptionHandler:23] Cannot invoke "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.OdontologoDTO.getId()" because the return value of "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.TurnoDTO.getOdontologo()" is null
+[2023-05-01 23:34:55] [ ERROR] [GlobalExceptionHandler:23] Cannot invoke "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.OdontologoDTO.getId()" because the return value of "com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.dto.TurnoDTO.getOdontologo()" is null
+[2023-05-01 23:46:14] [ ERROR] [GlobalExceptionHandler:23] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (CAST(3 AS BIGINT))"; SQL statement:
+delete from odontologos where id=? [23503-214]]
+[2023-05-01 23:49:32] [ ERROR] [GlobalExceptionHandler:23] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (CAST(3 AS BIGINT))"; SQL statement:
+delete from odontologos where id=? [23503-214]]
+[2023-05-02 19:08:22] [ ERROR] [GlobalExceptionHandler:23] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (CAST(3 AS BIGINT))"; SQL statement:
+delete from odontologos where id=? [23503-214]]
+[2023-05-02 19:12:10] [ ERROR] [GlobalExceptionHandler:23] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (CAST(3 AS BIGINT))"; SQL statement:
+delete from odontologos where id=? [23503-214]]
+[2023-05-02 19:14:01] [ ERROR] [GlobalExceptionHandler:23] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (CAST(3 AS BIGINT))"; SQL statement:
+delete from odontologos where id=? [23503-214]]
+[2023-05-02 19:14:12] [ ERROR] [GlobalExceptionHandler:23] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (CAST(3 AS BIGINT))"; SQL statement:
+delete from odontologos where id=? [23503-214]]
+[2023-05-02 19:19:32] [ ERROR] [GlobalExceptionHandler:23] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (CAST(3 AS BIGINT))"; SQL statement:
+delete from odontologos where id=? [23503-214]]
+[2023-05-02 19:31:51] [ ERROR] [GlobalExceptionHandler:23] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (CAST(3 AS BIGINT))"; SQL statement:
+delete from odontologos where id=? [23503-214]]
+[2023-05-26 01:21:15] [ ERROR] [GlobalExceptionHandler:23] com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.exeptions.ResourceNotFoundException: No hay turnos cargados
+[2023-05-26 01:21:37] [ ERROR] [GlobalExceptionHandler:23] com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.exeptions.ResourceNotFoundException: No hay turnos cargados
+[2023-05-26 01:21:56] [ ERROR] [GlobalExceptionHandler:23] com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.exeptions.ResourceNotFoundException: No hay turnos cargados
+[2023-05-26 01:22:02] [ ERROR] [GlobalExceptionHandler:23] com.clinicaOdontologicaSpring.clinicaOdontologicaSpring.exeptions.ResourceNotFoundException: No hay turnos cargados
