@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Listado de turnos</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+          rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" href="/css/styles_list.css" />
+</head>
+<body>
+<header>
+  <nav>
+    <div>
+      <a href="/index.html">
+        <i class="fa-solid fa-tooth"></i>
+      </a>
+    </div>
+    <div>
+      <div class="logo">
+        <img src="/img/logo.jpg" alt="Logo" srcset="" />
+      </div>
+    </div>
+    <div class="login">
+      <button class="ingreso btn btn-primary">Cerrar Sesión</button>
+    </div>
+  </nav>
+</header>
+<main>
+  <div class="d-grid gap-2 opciones">
+    <a href="/index.html">
+      <button class="btn btn-secondary" type="button">Home</button>
+    </a>
+    <a href="/turnoAlta.html">
+      <button class="btn btn-secondary" type="button">Agendar turno</button>
+    </a>
+  </div>
+
+  <div id="div_turno_table">
+    <h3>TURNOS</h3>
+    <div class="table-responsive">
+      <table id="turnoTable" class="table table-striped">
+        <thead class="thead-light">
+        <tr>
+          <th>ID / Editar</th>
+          <th>Odontologo</th>
+          <th>Día</th>
+          <th>Hora</th>
+          <th>Paciente</th>
+          <th>Eliminar</th>
+        </tr>
+        </thead>
+        <tbody id="turnoTableBody">
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div>
+    <div class="div_update" id="div_turno_updating">
+      <form id="update_turno_form">
+        <h3>Modificar turno</h3>
+        <div class="form-group">
+          <label>ID Turno:</label>
+          <input
+                  type="text"
+                  class="form-control"
+                  placeholder="ID"
+                  id="turno_id"
+                  readonly
+          />
+        </div>
+        <div class="form-group">
+          <label for="odontologo_id">Odontólogo:</label>
+          <select class="form-control" id="odontologo_id" name="odontologo_id">
+            <option disabled selected>Selecciona un odontólogo</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="paciente_id">Paciente:</label>
+          <select class="form-control" id="paciente_id" name="paciente_id">
+            <option disabled selected>Selecciona un paciente</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="fecha">Fecha:</label>
+          <input type="date" class="form-control" id="fecha" name="fecha">
+        </div>
+        <div class="form-group">
+          <label for="hora">Hora:</label>
+          <input type="time" class="form-control" id="hora" name="hora">
+        </div>
+        <div class="button-form">
+          <button id = "boton_modificar" type="submit" class="btn btn-primary">Modificar</button>
+        </div>
+      </form>
+      <div id="response" style="display: none"></div>
+    </div>
+  </div>
+  <hr />
+</main>
+<footer>
+  <div class="footer">
+    <div class="redes">
+      <ul>
+        <li><i class="fa-brands fa-whatsapp"></i></li>
+        <li><i class="fa-brands fa-instagram"></i></li>
+        <li><i class="fa-brands fa-linkedin"></i></li>
+      </ul>
+    </div>
+    <div class="slogan">
+      <p>Tecnología a su servicio</p>
+    </div>
+  </div>
+</footer>
+<script type="text/javascript" src="/js/get_turno.js"></script>
+<script type="text/javascript" src="/js/put_turno.js"></script>
+<script type="text/javascript" src="/js/delete_turno.js"></script>
+</body>
+</html>

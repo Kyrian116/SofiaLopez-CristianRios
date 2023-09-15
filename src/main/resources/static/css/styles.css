@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header{
+    flex: 0 0 8%; /* 20% de altura */;
+    background-color: rgba(184, 184, 184, 0.786);
+  }
+
+  body {
+    background-color: rgba(238, 236, 236, 0.59);
+}
+
+  footer {
+    flex: 0 0 25%;
+    background-color: rgba(184, 184, 184, 0.786);
+
+  }
+
+  main {
+    flex: 1; /* El resto del espacio disponible */
+    margin-top: 3rem;
+  }
+
+/*Header*/
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0 !important;
+    padding-left: 30px;
+
+}
+
+header nav i {
+    font-size: 50px;
+}
+
+header nav p {
+    margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.ingreso {
+    font-size: 15px;
+    padding: 6px 40px;
+    margin-right: 10px;
+}
+
+.login {
+    display: flex;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 70%;
+    opacity: 0.7;
+}
+
+.cards {
+    display: flex !important;
+    margin-top: 5%;
+    justify-content: space-around;
+}
+
+.card {
+    margin-right: 20px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-body h5 {
+    margin-bottom: 1rem;
+
+}
+
+.btnLink {
+    display: flex;
+    flex-direction: column;
+}
+
+.btnLink a {
+    margin-top: 10px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    padding-left: 50px;
+    justify-content: space-between;
+}
+
+footer {
+    display: flex;
+}
+
+footer p {
+    margin: 0;
+}
+
+.redes {
+    margin-right: 40px;
+}
+
+.redes ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+
+}
+
+.redes li{
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 20%;
+}
+
+.redes i {
+    font-size: 25px;
+}
+
+.slogan {
+    padding-right: 50px;
+}
+
+.redes {
+    margin-right: 40px;
+}
+
+.redes ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+
+}
+
+.redes li{
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 20%;
+}
+
+.redes i {
+    font-size: 25px;
+}
+
+.slogan {
+    padding-right: 50px;
+}

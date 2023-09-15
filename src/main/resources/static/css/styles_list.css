@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/*Header*/
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgba(184, 184, 184, 0.786);
+        margin: 0 !important;
+}
+
+header nav i {
+    font-size: 50px;
+}
+
+header nav p {
+    margin: 0;
+}
+
+body {
+    background-color: rgba(238, 236, 236, 0.59);
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 70%;
+    opacity: 0.7;
+}
+
+.login {
+    width: 23%;
+}
+
+.ingreso {
+    width: 85%;
+    font-size: 16px;
+}
+
+.opciones {
+    display: flex !important;
+    margin-bottom: 40px;
+    justify-content: space-around;
+}
+
+#div_odontologo_updating, #div_paciente_updating {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(238, 236, 236);
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+
+.form label {
+ margin-left: 10px
+}
+
+
+#odontologoTable, #pacienteTable {
+    text-align: center;
+}
+
+#div_odontologo_updating h3, #div_paciente_updating h3 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#div_odontologo_updating label, #div_paciente_updating label {
+ margin-left: 10px;
+ margin-bottom: 3px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+form button {
+    margin-top: 20px;
+}
+
+button {
+    width: 12rem;
+}
+
+h3 {
+    font-weight: bold;
+    padding-bottom:25px;
+    text-align: center;
+
+    margin: 0;
+
+}
+
+form button {
+    margin-top: 20px;
+}
+
+.button-form {
+    text-align: center;
+}
+
+.button-form button {
+    width: 50%;
+}
+
+.btn_delete, .btn_id {
+    width: 100%;
+}
+
+#response {
+    margin-top:10px;
+}
+
+.div_update {
+    display: none;
+}
+
+th {
+    font-size: 16px;
+}
+
+/*Pacientes List
+
+#div_paciente_updating {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(238, 236, 236);
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+
+#pacienteTable {
+    text-align: center;
+}
+
+#div_paciente_updating h3 {
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+#div_paciente_updating label {
+ margin-left: 10px;
+ margin-bottom: 3px;
+}
+*/

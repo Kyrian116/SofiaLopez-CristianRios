@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listado de pacientes</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+          crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/styles_list.css">
+
+</head>
+<body>
+<header>
+  <nav>
+    <div>
+      <a href="/index.html">
+        <i class="fa-solid fa-tooth"></i>
+      </a>
+    </div>
+    <div>
+      <div class="logo">
+        <img src="/img/logo.jpg" alt="Logo" srcset="" />
+      </div>
+    </div>
+    <div class="login">
+      <button class="ingreso btn btn-primary">Cerrar Sesión</button>
+    </div>
+  </nav>
+</header>
+<main>
+  <div class="d-grid gap-2 opciones">
+    <a href="/index.html">
+      <button class="btn btn-secondary" type="button">Home</button>
+    </a>
+    <a href="/pacienteAlta.html">
+      <button class="btn btn-secondary" type="button">Agregar paciente</button>
+    </a>
+  </div>
+
+  <div id="div_pacientes_table">
+    <h3>PACIENTES</h3>
+    <div class="table-responsive">
+      <table id="pacienteTable " class="table table-striped">
+        <thead class = "thead-light">
+        <tr>
+          <th>ID / Editar</th>
+          <th>Apellido</th>
+          <th>Nombre</th>
+          <th>DNI</th>
+          <th>Fecha de Ingreso</th>
+          <th>Domicilio</th>
+          <th>Localidad</th>
+          <th>Provincia</th>
+          <th>Eliminar</th>
+        </tr>
+        </thead>
+        <tbody id="pacienteTableBody">
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div>
+    <div class="div_update" id="div_paciente_updating">
+      <form id="update_paciente_form">
+        <h3>Modificar paciente</h3>
+        <div class="form-group">
+          <label >ID:</label>
+          <input type="text" class="form-control" id="paciente_id" readonly>
+        </div>
+        <div class="form-group">
+          <label >Nombre:</label>
+          <input type="text" class="form-control" placeholder="Nombre" id="nombre">
+        </div>
+        <div class="form-group">
+          <label >Apellido:</label>
+          <input type="text" class="form-control" placeholder="Apellido" id="apellido">
+        </div>
+        <div class="form-group">
+          <label >DNI:</label>
+          <input type="text" class="form-control" placeholder="DNI" id="dni">
+        </div>
+        <div class="form-group">
+          <label >Fecha de Ingreso:</label>
+          <input type="text" class="form-control" placeholder="DNI" id="fechaIngreso">
+        </div>
+        <div class="form-group">
+          <label >Domicilio:</label>
+          <input type="text" class="form-control" placeholder="Calle" id="calle">
+          <input type="text" class="form-control" placeholder="numero" id="numero">
+          <input type="text" class="form-control" placeholder="localidad" id="localidad">
+          <input type="text" class="form-control" placeholder="provincia" id="provincia">
+        </div>
+        <div class="button-form">
+          <button type="submit" class="btn btn-primary">Modificar</button>
+        </div>
+      </form>
+      <div id="response" style="display:none"></div>
+    </div>
+  </div>
+  <hr>
+</main>
+<footer>
+  <div class = "footer">
+    <div class = "redes">
+      <ul>
+        <li><i class="fa-brands fa-whatsapp"></i></li>
+        <li><i class="fa-brands fa-instagram"></i></li>
+        <li><i class="fa-brands fa-linkedin"></i></li>
+      </ul>
+    </div>
+    <div class = "slogan">
+      <p>Tecnología a su servicio</p>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="/js/get_paciente.js"></script>
+<script type="text/javascript" src="/js/put_paciente.js"></script>
+<script type="text/javascript" src="/js/delete_paciente.js"></script>
+</body>
+</html>
